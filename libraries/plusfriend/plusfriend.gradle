@@ -1,0 +1,6 @@
+evaluationDependsOn(':libraries')
+
+dependencies {
+    api project(':libraries:common')
+    implementation "com.android.support:customtabs:$ANDROID_SUPPORT_LIB_VERSION"
+}
